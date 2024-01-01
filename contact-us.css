@@ -1,0 +1,133 @@
+body {
+    
+    font-family: Irish Grover, sans-serif;
+    background-image: url(pxfuel.jpg);
+    background-repeat: no-repeat;   
+    background-color: black;
+    margin: 0px;
+    background-size: cover;
+    display: flexbox;
+}
+
+.title {
+    margin-left: 180px;
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    
+}
+
+.container {
+    background-color: black;
+   margin-top: 0px;
+    box-sizing: border-box;
+    
+}
+
+.menu {
+    margin-left: 300px;
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    font-family: inter;
+    cursor: pointer;
+}
+
+h3  {
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.white-background {
+    background-color: #fff;
+    color: black;
+    font-family: inter;
+    position: relative;
+    top: -15px;
+}
+
+.login {
+    cursor: pointer;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.box {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    position: relative;
+    top:60px;
+    margin: 0px 180px;
+}
+
+.msg,
+.email {
+    position: relative;
+    left: 2%;
+}
+
+textarea {
+    position: relative;
+    width: 96%; 
+    height: 150px;
+    box-sizing: border-box; 
+    margin-bottom: 10px; 
+    resize: none;   
+    left: 2%;
+    
+}
+
+input[type="email"] {
+    width: 30%; 
+    height: 30px;
+    position: relative;
+    left: 2%;
+    box-sizing: border-box; 
+    margin-bottom: 20px; 
+}
+
+input[type="submit"] {
+
+    background-color: #ffffff; 
+    color: #000000; 
+    border: none;
+    cursor: pointer;
+    font: bold 16px inter;
+    position: relative;
+    left: 3%;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.images {
+    display: inline-block;
+    align-content: center;
+    margin: 0px;
+    margin-top: 5%;
+    background-color: rgba(0,0,0,0.8);
+    position: relative;
+    left: 42%;
+    
+}
+footer {
+    text-align: right;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top:10px;
+    color: #fff;
+    font-family: inter;
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
